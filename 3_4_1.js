@@ -26,8 +26,8 @@ function Router(name, brand, power, wifi, module4G) {
     this.name = name;
     this.brand = brand;
     this.power = power;
-    this.wifi = false;
-    this.module4G = false;
+    this.wifi = wifi; //bool
+    this.module4G = module4G; //bool
     this.pluggedIn = false;
 }
 
